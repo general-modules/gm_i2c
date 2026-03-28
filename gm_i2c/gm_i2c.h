@@ -22,10 +22,10 @@ extern "C"
 
 #define GM_I2C_VERSION_MAJOR 1
 #define GM_I2C_VERSION_MINOR 0
-#define GM_I2C_VERSION_PATCH 0
+#define GM_I2C_VERSION_PATCH 1
 
 // I2C 对象
-typedef struct _gm_i2c gm_i2c_t;
+typedef struct _gm_i2c_t gm_i2c_t;
 
 /**
  * @brief 创建 I2C 对象

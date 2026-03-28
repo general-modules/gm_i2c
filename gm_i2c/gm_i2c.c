@@ -23,7 +23,7 @@
 #include "gm_i2c.h"
 
 // I2C 对象
-struct _gm_i2c
+struct _gm_i2c_t
 {
     int fd;
     pthread_mutex_t mutex;
